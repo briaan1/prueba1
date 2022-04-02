@@ -29,7 +29,7 @@ public class ConexionBaseDeDatosTest extends SpringTest{
     }
     @Test
     public void pruebaTest(){
-        assertThat(1).isEqualTo(2);
+        assertThat(1).isEqualTo(2);//
     }
 
 }
