@@ -27,5 +27,9 @@ public class ConexionBaseDeDatosTest extends SpringTest{
         session().save(usuario);
         assertThat(usuario.getId()).isNotNull();
     }
+    @Test
+    public void pruebaTest(){
+        assertThat(1).isEqualTo(2);
+    }
 
 }
